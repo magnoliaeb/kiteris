@@ -223,13 +223,10 @@
       </div>
     </section>
     <MyFooter />
+
   </div>
 </template>
 
-<script>
-import MyFooter from '../components/MyFooter.vue';
-export default {
-  components: { MyFooter },};
-</script>
+
 
 <style lang="scss" scoped></style>
