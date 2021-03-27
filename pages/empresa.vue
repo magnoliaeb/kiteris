@@ -1,16 +1,6 @@
 <template>
   <div class="">
-    <!-- hero -->
-    <div class="text-6xl h-96">
-      <div
-        class="h-full w-full bg-no-repeat bg-cover bg-fixed"
-        style="background-image: url('http://placeimg.com/640/480/nature');"
-      >
-        <div class="bg-black h-full flex items-center justify-center bg-opacity-50">
-          <h1 class="text-white font-bold md:text-9xl text-3xl">Presentación empresa</h1>
-        </div>
-      </div>
-    </div>
+    <Hero :title="'Presentación empresa'" />
 
     <section class="py-16 bg-gray-100">
       <div class="container mx-auto max-w-7xl">
@@ -58,7 +48,7 @@
         <div class="flex flex-wrap items-start">
           <!-- col -->
           <div class="w-full md:w-5/12 p-4 order-last">
-            <img class="w-full object-cover h-full" src="http://placeimg.com/640/480/people" alt="" />
+            <img class="w-full object-cover h-full" src="http://placeimg.com/640/480/city" alt="" />
           </div>
           <!-- col -->
           <div class="w-full md:w-7/12 p-4 order-first">
@@ -121,3 +111,16 @@
     </section>
   </div>
 </template>
+
+
+<script>
+import Hero from '../components/Hero.vue'
+  export default {
+  components: { Hero },
+    
+  }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
