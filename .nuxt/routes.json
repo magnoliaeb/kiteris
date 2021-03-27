@@ -1,8 +1,30 @@
 [
   {
+    "name": "empresa",
+    "path": "/empresa",
+    "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\empresa.vue",
+    "chunkName": "pages/empresa",
+    "_name": "_5148d4f2"
+  },
+  {
+    "name": "kiteris-data",
+    "path": "/kiteris-data",
+    "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\kiteris-data.vue",
+    "chunkName": "pages/kiteris-data",
+    "_name": "_4c14d508"
+  },
+  {
+    "name": "servicios",
+    "path": "/servicios",
+    "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\servicios.vue",
+    "chunkName": "pages/servicios",
+    "_name": "_202a33db"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_3094b2d0"
   }
 ]

@@ -4,6 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _5148d4f2 = () => interopDefault(import('..\\pages\\empresa.vue' /* webpackChunkName: "pages/empresa" */))
+const _4c14d508 = () => interopDefault(import('..\\pages\\kiteris-data.vue' /* webpackChunkName: "pages/kiteris-data" */))
+const _202a33db = () => interopDefault(import('..\\pages\\servicios.vue' /* webpackChunkName: "pages/servicios" */))
 const _3094b2d0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -18,6 +21,18 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/empresa",
+    component: _5148d4f2,
+    name: "empresa"
+  }, {
+    path: "/kiteris-data",
+    component: _4c14d508,
+    name: "kiteris-data"
+  }, {
+    path: "/servicios",
+    component: _202a33db,
+    name: "servicios"
+  }, {
     path: "/",
     component: _3094b2d0,
     name: "index"

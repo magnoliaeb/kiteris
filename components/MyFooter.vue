@@ -1,44 +1,44 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container mx-auto pt-10 px-6 md:px-0">
       <!-- grid -->
-      <div>
+      <div class="flex flex-wrap flex-row justify-center">
         <!-- col -->
-        <div>
-          <img src="" alt="">
+        <div class="w-full md:w-1/2 lg:w-1/4 text-center p-4">
+          <img class="mx-auto" src="../assets/img/HoritzontalBi.png" alt="">
         </div>
         <!-- col -->
-        <div>
+        <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left p-4">
           
-          <h3>Barcelona</h3>
-          <address>Carrer del Camp, 79 08022 Barcelona</address>
-          <a href="mailto:info@kiteris.com">info@kiteris.com</a>
+          <h3 class="font-semibold lg:text-lg text-gray-800 text-sm md:text-base">Barcelona</h3>
+          <address class="text-gray-500 not-italic mt-4 text-xs md:text-base">Carrer del Camp, 79 08022 Barcelona</address>
+          <a class="text-sucess-400 text-xs md:text-base" href="mailto:info@kiteris.com">info@kiteris.com</a>
         </div>
         <!-- col -->
-        <div>
+        <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left p-4">
           
-          <h3>Madrid</h3>
-          <address>Calle Poeta Joan Maragall, 19, 7º E 28020 Madrid</address>
-          <a href="mailto:info@kiteris.com">info@kiteris.com</a>
+          <h3 class="font-semibold lg:text-lg text-gray-800 text-sm md:text-base">Madrid</h3>
+          <address class="text-gray-500 not-italic mt-4 text-xs md:text-base">Calle Poeta Joan Maragall, 19, 7º E 28020 Madrid</address>
+          <a class="text-sucess-400 text-xs md:text-base" href="mailto:info@kiteris.com">info@kiteris.com</a>
         </div>
         <!-- col -->
-        <div>
+        <div class="w-full md:w-1/2 lg:w-1/4 text-center md:text-left p-4">
           
-          <h3>Cartagena</h3>
-          <address>Calle Jabonerías, 15, 1º 30201 Cartagena</address>
-          <a href="mailto:info@kiteris.com">info@kiteris.com</a>
+          <h3 class="font-semibold lg:text-lg text-gray-800 text-sm md:text-base">Cartagena</h3>
+          <address class="text-gray-500 not-italic mt-4 text-xs md:text-base">Calle Jabonerías, 15, 1º 30201 Cartagena</address>
+          <a class="text-sucess-400 text-xs md:text-base" href="mailto:info@kiteris.com">info@kiteris.com</a>
         </div>
 
       </div>
-      <div></div>
-      <div>
-        <p>
-          <strong>© KITERIS 2021</strong> · Project Management & IT Services · 
-          <router-link to="/">Aviso Legal</router-link>
+      <div class="w-full h-px bg-gray-100"></div>
+      <div class="flex justify-center py-10 text-center">
+        <p class="text-gray-500 text-xs md:text-sm lg:text-base">
+          <strong class="text-primary-500 text-sm">© KITERIS 2021</strong> · Project Management & IT Services · 
+          <router-link class="text-primary-500" to="/">Aviso Legal</router-link>
            · 
-           <router-link to="/">Política de privacidad</router-link>
+           <router-link class="text-primary-500" to="/">Política de privacidad</router-link>
             ·
-            <router-link to="/">Política de cookies</router-link>
+            <router-link class="text-primary-500" to="/">Política de cookies</router-link>
 
         </p>
       </div>

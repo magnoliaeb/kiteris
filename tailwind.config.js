@@ -13,14 +13,14 @@ module.exports = {
     },
     colors: {
       gray: colors.coolGray,
-      blue: colors.blue,
+      primary: colors.blue,
       purple: colors.purple,
       black: colors.black,
       error: colors.rose,
       pink: colors.fuchsia,
       white: colors.white,
       orange: colors.yellow,
-      green: colors.green
+      sucess: colors.green
     },
     fontSize: {
       xs: '.75rem',

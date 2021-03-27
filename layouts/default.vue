@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="h-full">
     <NavBar />
-    <Nuxt />
+    <Nuxt class="" />
 
     <MyFooter />
   </div>
@@ -14,3 +14,11 @@ export default {
   components: { MyFooter, NavBar },
 };
 </script>
+<style >
+#__nuxt {
+	height: 100%;
+  }
+  #__layout {
+	height: 100%;
+  }
+</style>
