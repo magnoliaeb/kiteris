@@ -28,7 +28,7 @@
           class="hidden lg:flex text-white lg:space-x-8 text-base font-semibold mr-8"
         >
           <li v-for="(item, index) in items" :key="index">
-            <router-link :to="{ name: item.link}" class="tracking-wide">{{
+            <router-link :to="{ name: item.link}" class="tracking-wide lowercase">{{
               item.title
             }}</router-link>
           </li>

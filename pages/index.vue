@@ -139,7 +139,7 @@
         </div>
         <!-- col -->
         <div class="w-full lg:w-1/2">
-          <img class="h-full w-full" src="https://dummyimage.com/1201x800" alt="" />
+          <img class="h-full w-full" src="http://placeimg.com/640/480/people" alt="" />
         </div>
       </div>
 
@@ -163,7 +163,7 @@
         </div>
         <!-- col -->
         <div class="w-full lg:w-1/2 lg:order-first hidden md:block">
-          <img class="h-full w-full" src="https://dummyimage.com/1201x800" alt="" />
+          <img class="h-full w-full" src="http://placeimg.com/640/480/fashion" alt="" />
         </div>
       </div>
 
@@ -179,7 +179,7 @@
           <div class="w-full md:w-1/3 p-4 h-full">
             <!-- card -->
             <div class="bg-white h-full p-8 md:shadow-lg hover:shadow-2xl md:rounded-lg">
-              <img class="w-full" src="https://dummyimage.com/1201x700" alt="" />
+              <img class="w-full" src="http://placeimg.com/640/480/fashion" alt="" />
               <div class="text-center">
                 <h2 class="font-semibold uppercase text-sm md:text-base mt-4">
                   TRANSFORMACIÓN DE LA GESTIÓN DE UNA AGENCIA DE VIAJES EN UNA
@@ -193,7 +193,7 @@
           <div class="w-full md:w-1/3 p-4 h-full">
             <!-- card -->
             <div class="bg-white h-full p-8 md:shadow-lg hover:shadow-2xl md:rounded-lg">
-              <img class="w-full" src="https://dummyimage.com/1201x700" alt="" />
+              <img class="w-full" src="http://placeimg.com/640/480/sports" alt="" />
               <div class="text-center">
                 <h2 class="font-semibold uppercase text-sm md:text-base mt-4">
                   HERRAMIENTA DE CÁLCULO Y ANÁLISIS DE LOS MÁRGENES DE UNA
@@ -207,7 +207,7 @@
           <div class="w-full md:w-1/3 p-4 h-full">
             <!-- card -->
             <div class="bg-white h-full p-8 md:shadow-lg hover:shadow-2xl md:rounded-lg">
-              <img class="w-full" src="https://dummyimage.com/1201x700" alt="" />
+              <img class="w-full" src="http://placeimg.com/640/480/transport" alt="" />
               <div class="text-center">
                 <h2 class="font-semibold uppercase text-sm md:text-base mt-4">
                   ADAPTACIÓN DE SU SOLUCIÓN DE GESTIÓN DE RIESGO DE CRÉDITO DE

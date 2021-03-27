@@ -1,7 +1,7 @@
 <template>
   <div class="h-full">
-    <NavBar />
-    <Nuxt class="" />
+    <NavBar class="mb-16" />
+    <Nuxt class="pt-10" />
 
     <MyFooter />
   </div>

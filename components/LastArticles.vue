@@ -7,15 +7,15 @@
         <div class="flex flex-wrap justify-center space-y-4 md:space-y-0">
           <!-- col -->
           <div class="w-full md:w-1/3 md:p-4">
-            <img src="https://dummyimage.com/1201x800 " alt="" />
+            <img class="object-cover w-full h-full" src="http://placeimg.com/640/480/city" alt="" />
           </div>
           <!-- col -->
           <div class="w-full md:w-1/3 md:p-4">
-            <img src="https://dummyimage.com/1201x800 " alt="" />
+            <img class="object-cover w-full h-full" src="http://placeimg.com/640/480/food" alt="" />
           </div>
           <!-- col -->
           <div class="w-full md:w-1/3 md:p-4">
-            <img src="https://dummyimage.com/1201x800 " alt="" />
+            <img class="object-cover w-full h-full" src="http://placeimg.com/640/480/transport" alt="" />
           </div>
         </div>
       </div>

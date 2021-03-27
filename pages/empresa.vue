@@ -18,7 +18,7 @@
         <div class="flex flex-wrap items-start">
           <!-- col -->
           <div class="w-full md:w-5/12 p-4 ">
-            <img class="w-full" src="https://dummyimage.com/1201x900" alt="" />
+            <img class="w-full object-cover h-full" src="http://placeimg.com/640/480/people" alt="" />
           </div>
           <!-- col -->
           <div class="w-full md:w-7/12 p-4">
@@ -58,7 +58,7 @@
         <div class="flex flex-wrap items-start">
           <!-- col -->
           <div class="w-full md:w-5/12 p-4 order-last">
-            <img class="w-full" src="https://dummyimage.com/1201x900" alt="" />
+            <img class="w-full object-cover h-full" src="http://placeimg.com/640/480/people" alt="" />
           </div>
           <!-- col -->
           <div class="w-full md:w-7/12 p-4 order-first">
