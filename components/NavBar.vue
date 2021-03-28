@@ -1,7 +1,7 @@
 <template>
-  <nav class="bg-primary-500 py-0.5 px-6 md:px-16 fixed w-full">
+  <nav class="bg-primary py-0.5 px-6 md:px-6  w-full z-40 fixed">
     <div
-      class="container w-full mx-auto lg:max-w-full flex items-center justify-between "
+      class="lg:container w-full mx-auto lg:max-w-6xl flex items-center justify-between "
     >
       <div>
         <router-link to="/">
@@ -9,7 +9,7 @@
         </router-link>
       </div>
       <div class="flex items-center">
-        <div class="lg:hidden">
+        <button @click="showMenu = !showMenu" class="lg:hidden">
           <svg
             class="h-8 w-8 text-white"
             fill="none"
@@ -23,16 +23,20 @@
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
+        </button>
+
+        <div v-if="showMenu" class="hidden lg:block absolute bottom-0 left-0 lg:relative  top-16 lg:top-0 w-full bg-primary ">
+          <ul
+            class="flex flex-col lg:flex-row text-white lg:space-x-7 text-base font-semibold lg:mr-8 bg-primary-500 py-3"
+          >
+            <li class=" text-left py-1.5 px-6 lg:py-0 lg:px-0" v-for="(item, index) in items" :key="index">
+              <router-link :to="{ name: item.link }" class="tracking-wide text-base">{{
+                item.title
+              }}</router-link>
+            </li>
+          </ul>
+
         </div>
-        <ul
-          class="hidden lg:flex text-white lg:space-x-8 text-base font-semibold mr-8"
-        >
-          <li v-for="(item, index) in items" :key="index">
-            <router-link :to="{ name: item.link}" class="tracking-wide lowercase">{{
-              item.title
-            }}</router-link>
-          </li>
-        </ul>
         <div class="flex items-center space-x-6">
           <div class="lg:flex space-x-2 hidden">
             <div class="w-6 h-6 bg-gray-100"></div>
@@ -50,14 +54,15 @@
 export default {
   data() {
     return {
+      showMenu: true,
       items: [
-        { title: "Empresa", link: "empresa" },
-        { title: "Servicios", link: "servicios" },
-        { title: "Kiteris data", link: "kiteris-data" },
-        { title: "Kiteris 3D", link: "kiteris-3d" },
-        { title: "Valores de kiteris", link: "valores-de-kiteris" },
-        { title: "Empleos", link: "Empresa" },
-        { title: "Contacto", link: "Empresa" },
+        { title: "empresa", link: "empresa" },
+        { title: "servicios", link: "servicios" },
+        { title: "kiteris data", link: "kiteris-data" },
+        { title: "kiteris 3D", link: "kiteris-3d" },
+        { title: "valores de kiteris", link: "valores-de-kiteris" },
+        { title: "empleos", link: "Empresa" },
+        { title: "contacto", link: "contacto" },
       ],
     };
   },

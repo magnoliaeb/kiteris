@@ -13,7 +13,7 @@
           <!-- col -->
           <div class="w-full md:w-7/12 p-4">
             <h2
-              class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary-500"
+              class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary"
             >
               Nosotros
             </h2>
@@ -53,7 +53,7 @@
           <!-- col -->
           <div class="w-full md:w-7/12 p-4 order-first">
             <h2
-              class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary-500"
+              class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary"
             >
               Nuestra experiencia
             </h2>
@@ -81,7 +81,7 @@
     <section class="py-16 bg-gray-100 px-6">
       <div class="container mx-auto max-w-6xl">
         <h2
-          class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary-500"
+          class="text-lg sm:text-lg md:text-4xl font-bold mb-6 text-left text-primary"
         >
           Sobre el nombre «Kiteris»
         </h2>

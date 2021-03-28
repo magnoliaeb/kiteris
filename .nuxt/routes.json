@@ -1,44 +1,44 @@
 [
   {
+    "name": "contacto",
+    "path": "/contacto",
+    "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\contacto.vue",
+    "chunkName": "pages/contacto"
+  },
+  {
     "name": "empresa",
     "path": "/empresa",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\empresa.vue",
-    "chunkName": "pages/empresa",
-    "_name": "_5148d4f2"
+    "chunkName": "pages/empresa"
   },
   {
     "name": "kiteris-3d",
     "path": "/kiteris-3d",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\kiteris-3d.vue",
-    "chunkName": "pages/kiteris-3d",
-    "_name": "_64a0b13a"
+    "chunkName": "pages/kiteris-3d"
   },
   {
     "name": "kiteris-data",
     "path": "/kiteris-data",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\kiteris-data.vue",
-    "chunkName": "pages/kiteris-data",
-    "_name": "_4c14d508"
+    "chunkName": "pages/kiteris-data"
   },
   {
     "name": "servicios",
     "path": "/servicios",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\servicios.vue",
-    "chunkName": "pages/servicios",
-    "_name": "_202a33db"
+    "chunkName": "pages/servicios"
   },
   {
     "name": "valores-de-kiteris",
     "path": "/valores-de-kiteris",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\valores-de-kiteris.vue",
-    "chunkName": "pages/valores-de-kiteris",
-    "_name": "_5b1f7964"
+    "chunkName": "pages/valores-de-kiteris"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\magno\\\\Desktop\\\\kiteris\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3094b2d0"
+    "chunkName": "pages/index"
   }
 ]

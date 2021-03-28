@@ -7,7 +7,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'my website description'
+        content: 'Kiteris Solutions'
       }
     ],
   },
