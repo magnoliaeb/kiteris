@@ -157,6 +157,18 @@ import FormSevice from "../components/FormSevice.vue";
 import LastArticles from "../components/LastArticles.vue";
 export default {
   components: { LastArticles, FormSevice },
+   head() {
+      return {
+        title: 'Kiteris 3d',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Kiteris 3d page description'
+          }
+        ]
+      }
+    }
 };
 </script>
 

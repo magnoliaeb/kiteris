@@ -244,6 +244,18 @@
 import LastArticles from "../components/LastArticles.vue";
 export default {
   components: { LastArticles },
+   head() {
+      return {
+        title: 'Kiteris data',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Kiteris data page description'
+          }
+        ]
+      }
+    }
 };
 </script>
 

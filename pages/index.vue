@@ -155,7 +155,7 @@
       <!-- grid -->
       <div class="flex flex-wrap">
         <!-- col -->
-        <div class="w-full lg:w-1/2 flex lg:order-last bg-primary-600">
+        <div class="w-full lg:w-1/2 flex lg:order-last bg-primary">
           <div class="md:container mx-auto py-16 lg:p-16 px-6  h-full  text-white">
             <h2 class="text-xl md:text-7xl font-bold mb-8">Sobre nosotros</h2>
           <p class="text-sm md:text-base">
@@ -211,7 +211,18 @@ import CasosDeExito from '../components/CasosDeExito.vue'
 import LastArticles from '../components/LastArticles.vue'
   export default {
   components: { LastArticles, CasosDeExito },
-    
+     head() {
+      return {
+        title: 'Home',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Home page description'
+          }
+        ]
+      }
+    }
   }
 </script>
 

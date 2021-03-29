@@ -396,6 +396,18 @@ import CasosDeExito from '../components/CasosDeExito.vue';
 import FormSevice from "../components/FormSevice.vue";
 export default {
   components: { FormSevice, CasosDeExito },
+   head() {
+      return {
+        title: 'Servicios',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Servicios page description'
+          }
+        ]
+      }
+    }
 };
 </script>
 

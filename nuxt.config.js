@@ -1,5 +1,9 @@
 export default {
     head: {
+      metaInfo: {
+        title: 'Foo Bar',
+        titleTemplate: '%s - Baz'
+      },
     title: 'my website title',
     meta: [
       { charset: 'utf-8' },

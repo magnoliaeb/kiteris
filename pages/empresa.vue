@@ -117,6 +117,18 @@
 import Hero from '../components/Hero.vue'
   export default {
   components: { Hero },
+   head() {
+      return {
+        title: 'Empresa',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Empres page description'
+          }
+        ]
+      }
+    }
     
   }
 </script>

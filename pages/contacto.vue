@@ -79,6 +79,19 @@ import Hero from '../components/Hero.vue';
 
 export default {
   components: { Hero },
+   head() {
+      return {
+        title: 'Coontact',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Contact page description'
+          }
+        ]
+      }
+    },
+  
   data() {
     return {
       oficinas: [

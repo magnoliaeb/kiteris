@@ -94,6 +94,18 @@ import Hero from "../components/Hero.vue";
 import LastArticles from "../components/LastArticles.vue";
 export default {
   components: { LastArticles, Hero },
+   head() {
+      return {
+        title: 'Valores de kiteris',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Valores de kiteris page description'
+          }
+        ]
+      }
+    },
   data() {
     return {
       valores: [
